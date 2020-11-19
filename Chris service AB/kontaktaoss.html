@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <!-- header längst upp på hemsidan -->
+        <meta charset="UTF-8">
+        <title>Kontakta oss</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <meta name="description" content="Detta är en övningssida.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">       
+        <link rel="stylesheet" href="https://use.frontawesome.com/releases/v5.4.1/css/all.css">
+        <script src="https://kit.fontawesome.com/bb80e9101c.js" crossorigin="anonymous"></script>
+       
+        
+
+
+
+
+        
+        <!-- separata css-filer för olika enheter -->
+        <link rel="stylesheet" media="(min-width:768px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(min-width:960px)" href="css/laptop.css">
+        <link rel="stylesheet" media="(min-width:1200px)" href="css/desktop.css">
+        <script>
+         // här kan man lägga javascript
+        </script>
+    </head>
+    <body>
+        <!-- allt innehåll på hemsidan -->
+        <a href="#to-content"><span class="sr-only">Hoppa till innehållet</span></a>
+        <div id="top-of-page" class="site">
+            
+            <header class="site-header">
+                <div class="container">
+                
+                    
+                
+                <!-- sidhuvud för logga och navigering -->
+                <div class="brand">
+                    <img class="logo" src="images/Skärmavbild 2020-03-26 kl. 16.24.16 (kopia).png" alt="">
+                </div>
+                    <a class="toggle-menu" href="#"><i class="fas fa-bars fa-fw"></i></a>
+                <nav class="site-navigation">
+                    <a href="index.html">Start</a>
+                    <a href="varaprojekt.html">Projekt</a>
+                    <a href="omoss.html">Om företaget</a>
+                    <a href="kontaktaoss.html">Kontakta oss</a>
+                </nav>
+                </div>     
+            </header>  
+
+
+            
+             <!-- main lägger man in allt innehåll -->
+            <main class="site-content" id="to-content">
+
+
+
+                <div class="header-text">
+                    <div class="headertext-container">
+                        <div class="image-contact">
+                        </div>
+                        <h1>KONTAKT</h1>
+                    </div>
+                </div>
+
+
+
+
+            <div class="contact-section">
+                <h2>Hur kan vi hjälpa dig?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse itaque totam ea explicabo pariatur laudantium labore unde neque necessitatibus? Nisi necessitatibus ducimus eveniet unde at asperiores laborum, quidem aspernatur.</p>
+                <!--<div class="border"></div>-->
+                <form class="contact-form" action="kontaktaoss.html" method="post">
+                    <input type="text" class="contact-form-text" placeholder="Namn">
+                    <input type="email" class="contact-form-text" placeholder="Mail">
+                    <input type="text" class="contact-form-text" placeholder="Telefon">
+                    <textarea class="contact-form-text" placeholder="Meddelande"></textarea>
+                    <input type="submit" class="contact-form-btn" value="Skicka">
+
+                </form>
+            </div>
+
+
+
+
+            
+            </main>
+
+            <footer class="site-footer">
+                <!-- I sidfot lägger vi ex. kontaktuppgifter, extra menyer m.m. -->
+                <div class="container">
+                <!-- sociala medier--->
+            
+
+                 <!-- attacheed social bar--->
+                <div class="a-social-b">
+
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+
+                </div>
+                 
+                <!-- copy rights--->
+                <div class="copyrights">
+                    <h3>Åkroksvägen 2, 561 44 Huskvarna</h3>
+                    <h1>© Copyright 2020 Chris Service AB</h1>
+                 </div>
+
+                <section1>
+                    <a class ="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i></a>
+                </section1>
+            </footer>
+
+        </div>
+
+        <!-- Hämta jQuery från CDN https://cdnjs.com/libraries/jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script>
+              // Här kan man lägga javascript
+            (function($){
+                $('.toggle-menu').click( function() {
+                    $('.site-navigation').toggleClass('show');
+                });
+            })(jQuery);
+          
+        </script>
+    </body>
+</html>
+    

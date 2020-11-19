@@ -1,0 +1,12 @@
+body {
+    /* background-color: blue; */
+}
+
+.container {
+    /* margin: 0 auto; - denna egenskap/regel satte vi i main.css */
+    max-width: 1140px;
+}
+row {}
+.column {
+    /* width: calc( 25% - 40px ); */
+}
