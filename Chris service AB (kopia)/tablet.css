@@ -1,0 +1,50 @@
+body {
+    /* background-color: green; */
+}
+
+.container {
+    max-width: 720px;
+}
+.row {
+    /* margin: 0 -20px; - denna har jag flyttat till main.css  */
+}
+.row::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.column {
+    float: left;
+    width: 100%;
+    /* width: calc( 50% - 40px); */
+    /* margin-left: 20px; 
+    margin-right: 20px; */
+}
+
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.w25 {
+    max-width: 25%;
+}
+.w33 {
+    max-width: calc( 100%/3 );
+}
+.w40 {
+    max-width: 40%;
+}
+.w50 {
+    max-width: 50%;
+}
+.w60 {
+    max-width: 60%;
+}
+.w67 {
+    max-width: calc( (100%/3) * 2);
+}
+.w75 {
+    max-width: 75%;
+}
